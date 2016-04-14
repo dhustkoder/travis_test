@@ -1,16 +1,8 @@
 sudo: required
 dist: trusty
 
-
 # Enable C++ support
 language: cpp
-# Compiler selection
-compiler:
-  - clang
-  - gcc
-
-
-
 
 
 addons:
