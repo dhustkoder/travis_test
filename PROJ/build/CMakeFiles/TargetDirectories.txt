@@ -1,3 +1,0 @@
-/home/rafael/Documents/Git/Github/travis_test/PROJ/build/CMakeFiles/edit_cache.dir
-/home/rafael/Documents/Git/Github/travis_test/PROJ/build/CMakeFiles/rebuild_cache.dir
-/home/rafael/Documents/Git/Github/travis_test/PROJ/build/CMakeFiles/PROJ.dir

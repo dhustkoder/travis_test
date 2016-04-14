@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11   CMakeFiles/PROJ.dir/src/test.cpp.o  -o PROJ -rdynamic 
