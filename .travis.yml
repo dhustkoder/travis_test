@@ -27,7 +27,7 @@ matrix:
           packages:
             - clang-3.6
       env: COMPILER=clang-3.6
-      env: CXX=clang-3.6
+      script: export CXX=clang-3.6
     - compiler: clang-3.7
       addons:
         apt:
@@ -37,7 +37,7 @@ matrix:
           packages:
             - clang-3.7
       env: COMPILER=clang-3.7
-
+      script: export CXX=clang-3.7
 
 
 # Build steps
