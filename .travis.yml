@@ -13,6 +13,7 @@ addons:
     - llvm-toolchain-precise-3.6
     packages:
     # install toolchains
+    - g++-4.9
     - g++-5
     - clang++-3.6
 
@@ -22,7 +23,7 @@ addons:
 
 matrix:
   include:
-    - compiler: g++
+    - compiler: g++-4.9
       addons:
         apt:
           sources:
@@ -30,7 +31,7 @@ matrix:
           packages:
             - g++-4.9
       env: COMPILER=g++-4.9
-    - compiler: g++
+    - compiler: g++-5
       addons:
         apt:
           sources:
@@ -38,7 +39,7 @@ matrix:
           packages:
             - g++-5
       env: COMPILER=g++-5
-    - compiler: clang
+    - compiler: clang++-3.6
       addons:
         apt:
           sources:
@@ -47,7 +48,7 @@ matrix:
           packages:
             - clang++-3.6
       env: COMPILER=clang++-3.6
-    - compiler: clang
+    - compiler: clang++-3.7
       addons:
         apt:
           sources:
