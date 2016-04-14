@@ -72,7 +72,8 @@ matrix:
 script:
   - mkdir build
   - cd build
-  - cmake .. && make
+  - cmake ../PROJ
+  - make
 
 
 
