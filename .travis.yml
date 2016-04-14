@@ -13,7 +13,6 @@ addons:
     - llvm-toolchain-precise-3.6
     packages:
     # install toolchain
-    - g++-5.3
     - clang++-3.6
     - clang++-3.7
 
@@ -22,14 +21,6 @@ addons:
 
 matrix:
   include:
-    - compiler: gcc-5.3
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - gcc-5.3
-      env: COMPILER=g++-5.3
     - compiler: clang-3.6
       addons:
         apt:
